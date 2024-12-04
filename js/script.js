@@ -405,3 +405,37 @@ function createCardItems(imageData) {
 
 // 카드 리스트 호출
 createCardItems(imageData);
+
+document.addEventListener("DOMContentLoaded", () => {
+    const deckLists = document.querySelectorAll(".deck-list-container");
+    const cardItems = document.querySelectorAll(".card-list .card-item");
+
+    // 덱 리스트에서 카드 개수 집계
+    const cardCounts = {};
+    deckLists.forEach((deck) => {
+      const deckItems = deck.querySelectorAll(".deck-list .deck-item img");
+      deckItems.forEach((img) => {
+        const cardName = img.alt;
+        cardCounts[cardName] = (cardCounts[cardName] || 0) + 1;
+      });
+    });
+
+    // 카드 리스트와 비교하여 active 클래스 추가
+    cardItems.forEach((cardItem) => {
+      const img = cardItem.querySelector("img");
+      const input = cardItem.querySelector("input[name='cardCount']");
+      const viewButton = cardItem.querySelector(".view-button");
+
+      if (img && input && viewButton) {
+        const cardName = img.alt;
+        const inputCount = parseInt(input.value, 10) || 0;
+        const deckCount = cardCounts[cardName] || 0;
+
+        if (inputCount >= deckCount) {
+          viewButton.classList.add("active");
+        } else {
+          viewButton.classList.remove("active");
+        }
+      }
+    });
+  });
