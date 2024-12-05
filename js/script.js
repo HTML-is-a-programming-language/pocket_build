@@ -394,6 +394,7 @@ function createCardItems(imageData) {
         input.id = `cardCount${index}`;
         input.value = 0;
         input.setAttribute('data-id', index);
+        input.min = 0;
 
         cardItem.appendChild(img);
         cardItem.appendChild(button);
