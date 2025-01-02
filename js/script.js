@@ -452,7 +452,6 @@ const imageData = [
     { src: "image/A1a_aerodactyl_ex_gold_2_1.webp", alt: "A1a 프테라ex", get: "환상이 있는 섬", rarity: 6, pack: 5 },
     { src: "image/A1a_celebi_ex_gold_3.webp", alt: "A1a 세레비ex", get: "환상이 있는 섬", rarity: 7, pack: 5 },
     { src: "image/A1a_mex_ex_crown.webp", alt: "A1a 뮤ex", get: "환상이 있는 섬", rarity: 8, pack: 5 },
-    /*{ src: "image/P_A_2_pokedex.webp", alt: "P-A 포켓몬 도감", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_moltres_ex.webp", alt: "P-A 파이어ex", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_3_pikachu.webp", alt: "P-A 피카츄", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_snivy.webp", alt: "P-A 주리비얀", get: "환상이 있는 섬", rarity: 9, pack: 0 },
@@ -460,6 +459,7 @@ const imageData = [
     { src: "image/P_A_blastoise.webp", alt: "P-A 거북왕", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_eevee.webp", alt: "P-A 이브이", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_cinccino.webp", alt: "P-A 치라치노", get: "환상이 있는 섬", rarity: 9, pack: 0 },
+    /*{ src: "image/P_A_2_pokedex.webp", alt: "P-A 포켓몬 도감", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_charmander.webp", alt: "P-A 파이리", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_squirtle.webp", alt: "P-A 꼬부기", get: "환상이 있는 섬", rarity: 9, pack: 0 },*/
 ];
