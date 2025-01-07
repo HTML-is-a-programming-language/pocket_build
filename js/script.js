@@ -459,9 +459,10 @@ const imageData = [
     { src: "image/P_A_blastoise.webp", alt: "P-A 거북왕", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_eevee.webp", alt: "P-A 이브이", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_cinccino.webp", alt: "P-A 치라치노", get: "환상이 있는 섬", rarity: 9, pack: 0 },
-    /*{ src: "image/P_A_2_pokedex.webp", alt: "P-A 포켓몬 도감", get: "환상이 있는 섬", rarity: 9, pack: 0 },
     { src: "image/P_A_charmander.webp", alt: "P-A 파이리", get: "환상이 있는 섬", rarity: 9, pack: 0 },
-    { src: "image/P_A_squirtle.webp", alt: "P-A 꼬부기", get: "환상이 있는 섬", rarity: 9, pack: 0 },*/
+    { src: "image/P_A_squirtle.webp", alt: "P-A 꼬부기", get: "환상이 있는 섬", rarity: 9, pack: 0 },
+    /*{ src: "image/P_A_2_pokedex.webp", alt: "P-A 포켓몬 도감", get: "환상이 있는 섬", rarity: 9, pack: 0 },
+    */
 ];
 
 // 카드 리스트 생성 함수
