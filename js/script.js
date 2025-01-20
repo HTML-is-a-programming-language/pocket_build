@@ -461,8 +461,7 @@ const imageData = [
     { src: "image/P_A_cinccino.webp", alt: "P-A 치라치노", get: "거북왕 드롭 이벤트", rarity: 9, pack: 4 },
     { src: "image/P_A_charmander.webp", alt: "P-A 파이리", get: "겟 챌린지 이벤트 전반 개최", rarity: 9, pack: 4 },
     { src: "image/P_A_squirtle.webp", alt: "P-A 꼬부기", get: "겟 챌린지 이벤트 전반 개최", rarity: 9, pack: 4 },
-    /*{ src: "image/P_A_2_pokedex.webp", alt: "P-A 포켓몬 도감", get: "환상이 있는 섬", rarity: 9, pack: 0 },
-    */
+    { src: "image/P_A_2_pokedex.webp", alt: "P-A 포켓몬 도감", get: "전 세계 플레이어의 카드 총 획득 장수 40,000,000,000장 달성을 기념선물", rarity: 9, pack: 4 },
 ];
 
 // 카드 리스트 생성 함수
