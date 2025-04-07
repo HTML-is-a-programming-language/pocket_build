@@ -892,6 +892,16 @@ const imageData = [
     { src: "image/A2b_Wugtrio_ex_shiny.webp", alt: "A2b 바닥트리오ex", get: "샤이닝 하이", rarity: 8, pack: 10 },
     { src: "image/A2b_Lucario_ex_shiny.webp", alt: "A2b 루카리오ex", get: "샤이닝 하이", rarity: 8, pack: 10 },
     { src: "image/A2b_Poke_Ball.webp", alt: "A2b 몬스터볼", get: "샤이닝 하이", rarity: 10, pack: 10 },
+    { src: "image/P-A_Mewtwo_ex.webp", alt: "P-A 뮤츠ex", get: "숍에서 입수", rarity: 11, pack: 4 },
+    { src: "image/P-A_Cyclizar.webp", alt: "P-A 모토마", get: "캠페인에서 입수", rarity: 11, pack: 4 },
+    { src: "image/P-A_Sprigatito.webp", alt: "P-A 나오하", get: "4월 프리미엄 패스 보상", rarity: 11, pack: 4 },
+    { src: "image/P-A_Floatzel.png", alt: "P-A 플로젤", get: "빠르모트 드롭 이벤트", rarity: 11, pack: 4 },
+    { src: "image/P-A_Pawmot.png", alt: "P-A 빠르모트", get: "빠르모트 드롭 이벤트", rarity: 11, pack: 4 },
+    { src: "image/P-A_Machamp.png", alt: "P-A 괴력몬", get: "빠르모트 드롭 이벤트", rarity: 11, pack: 4 },
+    { src: "image/P-A_Ekans.png", alt: "P-A 아보", get: "빠르모트 드롭 이벤트", rarity: 11, pack: 4 },
+    { src: "image/P-A_Bidoof.png", alt: "P-A 비버니", get: "빠르모트 드롭 이벤트", rarity: 11, pack: 4 },
+    { src: "image/P-A_Pachirisu.png", alt: "P-A 파치리스", get: "겟 챌린지 이벤트", rarity: 11, pack: 4 },
+    { src: "image/P-A_Riolu.png", alt: "P-A 리오르", get: "겟 챌린지 이벤트", rarity: 11, pack: 4 },
 ];
 
 // 카드 리스트 생성 함수
